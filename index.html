@@ -2,33 +2,39 @@
 <html>
     <head>
         <title></title>
-        <img src="images/hero image.png" alt="Lab Hero Image">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Rubik:wght@400;500;700&display=swap');
+        </style>
+        <link href="css/style.css" rel="stylesheet" type="text/css">
     </head>
 
     <body>
        <header class="navigation">
            <div class="logo">
-               <img src="images/logo.png" alt="Heart of Texas Lab Rescue">
+               <img src="images/logo.png" alt="Heart of Texas Lab Rescue" width= "125px">
            </div>
            <div class="topNav">
                <button type="button" id="searchBar">
-                   <img src="images/↳Color.png">
+                   <img id="searchIcon" src="images/↳Color.png" alt="search icon">
                </button>
                <button type="button" id="donateButton">Donate</button>
-           <nav class="inline-block">
+           <nav class="bottomNav">
                <ul>
-                   <li>Home</li>
-                   <li>About Us</li>
-                   <li>Meet The Labs</li>
-                   <li>Adoption Info</li>
-                   <li>Volunteer</li>
+                   <li id="navManu">Home</li>
+                   <li id="navManu">About Us</li>
+                   <li id="navManu">Meet The Labs</li>
+                   <li id="navManu">Adoption Info</li>
+                   <li id="navManu">Volunteer</li>
                </ul>
            </nav>
        </header>
        <section class="heroImg">
+        <img id="heroImage" src="images/hero image.png" alt="Lab Hero Image">
            <div class="missionStatement">
-               <h1>Heart of Texas Lab Rescue</h1>
-               <p>The Heart of Texas Lab Rescue is a non-profit 501(c)(3), all-volunteer organization based in Austin, Texas. Our mission is to rescue Labrador Retrievers from shelters, pounds, abandonment, and other situations, and place them in loving, caring homes. The HOT Lab Rescue serves Austin, San Antonio, and surrounding areas.</p>
+               <h1 class="missionStatement">Heart of Texas Lab Rescue</h1>
+               <p class="missionStatement2">The Heart of Texas Lab Rescue is a non-profit 501(c)(3), all-volunteer organization based in Austin, Texas. Our mission is to rescue Labrador Retrievers from shelters, pounds, abandonment, and other situations, and place them in loving, caring homes. The HOT Lab Rescue serves Austin, San Antonio, and surrounding areas.</p>
            </div>
        </section>
        <section class="homepageBanner">

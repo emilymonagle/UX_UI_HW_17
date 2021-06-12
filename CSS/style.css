@@ -1,0 +1,110 @@
+.navigation {
+    width: 100%;
+    height: 160px;
+    background-color: #DAE2E4;
+    position: absolute;
+}
+.topNav {
+    width: 100%;
+    height: 80px;
+    background-color: #A64044;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.logo {
+    width: 125px;
+    height: 121px;
+    position: absolute;
+    z-index: 1;
+    top: 19.5px;
+    left: 28px;
+}
+#searchBar {
+    display: inline-block;
+    width: 401px;
+    height: 44px;
+    background-color: white;
+    border-color: black;
+    position: absolute;
+    top: 18px;
+    left: 802px;
+}
+#searchIcon {
+    width: 30px;
+    height: 31px;
+    position: sticky;
+    top: 25px;
+    left: 1163px;
+    z-index: 2;
+}
+#donateButton {
+    width: 176px;
+    height: 57px;
+    position: relative;
+    top: 11px;
+    left: 1235px;
+    border-radius: 5px;
+    background-color: #608790;
+    color: white;
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Rubik', sans-serif;
+    font-size: 24px;
+    font-weight: 500; 
+}
+ul {
+    list-style-type: none;
+}
+li {
+    display: inline-block;
+    position: relative;
+    top: -30px;
+    left: 117.5px;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Rubik', sans-serif;
+    padding: 61.5px;
+}
+.heroImg {
+    position: relative;
+    height: 1024px;
+    width: 100%;
+    background-color: transparent;
+}
+#heroImage {
+    width: 100%;
+    height: 1024px;
+    position: absolute;
+    z-index: -1;
+}
+.missionStatement {
+    width: 1099px;
+    height: 278px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.25);
+    position: absolute;
+    top: 417px;
+    left: 167px;
+}
+.missionStatement h1 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 64px;
+    color: white;
+    font-weight: 700;
+    position: absolute;
+    top: -40px;
+    left: 136px;
+    background-color: transparent;
+}
+.missionStatement p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+    position: absolute;
+    top: 116px;
+    left: 27.5px;
+    background-color: transparent;
+    text-align: center;
+}
