@@ -3,7 +3,7 @@
     <head>
         <title></title>
         <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Rubik:wght@400;500;700&display=swap" type='text/css'>
         <style>
             @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Rubik:wght@400;500;700&display=swap');
         </style>
@@ -32,19 +32,19 @@
        </header>
        <section class="heroImg">
         <img id="heroImage" src="images/hero image.png" alt="Lab Hero Image">
-           <div class="missionStatement">
-               <h1 class="missionStatement">Heart of Texas Lab Rescue</h1>
+           <div class="mission">
+               <h1 class="missionHeader">Heart of Texas Lab Rescue</h1>
                <p class="missionStatement">The Heart of Texas Lab Rescue is a non-profit 501(c)(3), all-volunteer organization based in Austin, Texas. Our mission is to rescue Labrador Retrievers from shelters, pounds, abandonment, and other situations, and place them in loving, caring homes. The HOT Lab Rescue serves Austin, San Antonio, and surrounding areas.</p>
            </div>
        </section>
        <section class="homepageBanner">
-           <img src="images/paw print margins - banners.png" alt="Margin Image">
-           <div class="bannerContent">
+           <img class="leftPaw" src="images/paw print margins - banners.png" alt="Margin Image">
+           <div>
                 <h3>Want to help? Make a donation!</h3>
-                <p>Now that we have our very own ranch, we are in the process of building a climate-controlled kennel building for our dogs. Please donate to help us complete this project.</p>
+                <p class="bannerContent">Now that we have our very own ranch, we are in the process of building a climate-controlled kennel building for our dogs. Please donate to help us complete this project.</p>
                 <button type="button">Donate Now</button>
            </div>
-           <img src="images/paw print margins - banners.png" alt="Margin Image">
+           <img class="rightPaw" src="images/paw print margins - banners.png" alt="Margin Image">
        </section>
        <section class="homepageLabs">
            <h2>Labs Needing Homes</h2>
@@ -82,15 +82,15 @@
            </div>
            <button type="button">See More</button>
        </section>
-       <section class="homepageBanner">
-            <img src="images/paw print margins - banners.png" alt="Margin Image">
+       <section class="homepageBanner" id="banner2">
+            <img class="leftPaw" src="images/paw print margins - banners.png" alt="Margin Image">
             <div>
                 <h3>Join Our Team!</h3>
-                <p>People like you are what keeps us running. Become a volunteer today!</p>
-                <button type="button">Foster</button>
-                <button type="button">Volunteer</button>
+                <p class="bannerContent">People like you are what keeps us running. Become a volunteer today!</p>
+                <button class="banner2button" type="button">Foster</button>
+                <button class="banner2button">Volunteer</button>
             </div>
-            <img src="images/paw print margins - banners.png" alt="Margin Image">
+            <img class="rightPaw" src="images/paw print margins - banners.png" alt="Margin Image">
        </section>
        <section class="upcomingEvents">
            <h2>Upcoming Events</h2>
@@ -99,7 +99,7 @@
            <p id="eventDescription">Join HOTLR at Leander's Pet Fur Fest. The event will be in the Leander Church of Christ parking lot (300 Crystal Falls Parkway, Leander) from 10 am - 2 pm. They are offering low vaccines and free microchipping for Leander citizens. (non-resident microchips are $5.00 cash). Bring your dogs and come by and say hello.</p>
            <a href="https://business.facebook.com/HOTLab/">Follow us on Facebook to stay up to date on events ></a>
        </section>
-       <footer class="navigation">
+       <footer class="footer">
            <div class="inline-block">
                <ul>
                    <li class="footerCategory">Contact Us</li>
@@ -135,8 +135,9 @@
                </ul>
            </div>
            <div class="copyrightNotice">
-               <p>COPYRIGHT</p>
-               <p>© 2020 Heart of Texas Lab Rescue. All Rights Reserved.</p>
+               <p id="copyright">COPYRIGHT</p>
+               <p>© 2020 Heart of Texas Lab Rescue.</p>
+               <p> All Rights Reserved.</p>
            </div>
        </footer>
     </body>
